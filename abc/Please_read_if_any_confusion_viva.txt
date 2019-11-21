@@ -1,0 +1,20 @@
+##For java
+javac filename.java
+java filename
+NOTE Change filenames according to main class in java
+##YACC AND LEX
+yacc -d filename
+lex filename
+gcc lex.yy.c y.tab.h -ll
+Note in sentence verb program add sentences to a.txt
+
+##full forms
+Bottom up
+LR (SLR, LALR, CLR, LR(0))- left-to right
+SLR - Simple left to right
+CLR - cannonical left to right
+LALR - Look-Ahead LR parser
+
+Top down
+Recursive descent
+LL - Left to right, using leftmost derivation tree
